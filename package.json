@@ -1,0 +1,22 @@
+{
+  "name": "arbitrage",
+  "version": "1.0.0",
+  "description": "Coinbase vs. Binance Arbitrage",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/awnold/Arbitrage.git"
+  },
+  "author": "awnold",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/awnold/Arbitrage/issues"
+  },
+  "homepage": "https://github.com/awnold/Arbitrage#readme",
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
