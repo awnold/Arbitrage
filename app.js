@@ -53,11 +53,4 @@ async function start() {
     },(refreshRate * 1000));
 }
 
-
-
-
 start();
-
-
-// https://api.coinbase.com/v2/prices/ETH-USD/spot
-// https://api.binance.com/api/v3/ticker/price?symbol=ETHUSDT
