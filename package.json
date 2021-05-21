@@ -4,7 +4,8 @@
   "description": "Coinbase vs. Binance Arbitrage",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node ./src/app.js",
+    "dev": "nodemon ./src/app.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,8 @@
   },
   "homepage": "https://github.com/awnold/Arbitrage#readme",
   "dependencies": {
-    "axios": "^0.21.1"
+    "axios": "^0.21.1",
+    "discord.js": "^12.5.3",
+    "dotenv": "^9.0.2"
   }
 }
